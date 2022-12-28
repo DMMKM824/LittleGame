@@ -1,0 +1,317 @@
+Using pre-set license
+Built from 'HEAD' branch; Version is '2020.3.41f1c1 (148a17cb7d64) revision 1346071'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'zh' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.41f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Git/LittleGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57205
+Successfully changed project path to: E:/Git/LittleGame
+E:/Git/LittleGame
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 47.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.41f1c1 (148a17cb7d64)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.41f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Git/LittleGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.5709
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.41f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001061 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 3.077800 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.726500 ms  DeleteObjects: 0.076100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art
+  artifactKey: Guid(afbe45f3b55c0ff46a2321dbed49767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(afbe45f3b55c0ff46a2321dbed49767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cdf8b926593fddb8f03f4de370895f') in 0.006560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.115391 seconds.
+  path: Assets/Art/c场景
+  artifactKey: Guid(94fac7439340ef34b835b0a415f8c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/c场景 using Guid(94fac7439340ef34b835b0a415f8c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025298d7b4f4f50708d785493890b8df') in 0.056801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.828944 seconds.
+  path: Assets/Art/场景
+  artifactKey: Guid(94fac7439340ef34b835b0a415f8c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景 using Guid(94fac7439340ef34b835b0a415f8c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c38116ff0b8de7c5f3ad83c3660422e') in 0.005999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.905246 seconds.
+  path: Assets/Art/场景/ui
+  artifactKey: Guid(e2844d402101eb9489e5114d7c56cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui using Guid(e2844d402101eb9489e5114d7c56cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eef1e529fa7be712719c5dce1d3a48') in 0.004745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.940292 seconds.
+  path: Assets/Art/场景/场景地图
+  artifactKey: Guid(7e0d04538798158499fd9ea00fc7a70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/场景地图 using Guid(7e0d04538798158499fd9ea00fc7a70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37088a0567b33fb03530d333401ddb8b') in 0.005817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.233177 seconds.
+  path: Assets/Art/场景/场景地图/场景.jpg
+  artifactKey: Guid(f50a225a5447ebe43a5b74e198fa6650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/场景地图/场景.jpg using Guid(f50a225a5447ebe43a5b74e198fa6650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ccd82c05b2c1f177f0dbf49ccde1be') in 0.132996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.975551 seconds.
+  path: Assets/Art/场景/ui/图层 1.png
+  artifactKey: Guid(6cc69f40668c6164a974c7bfbcc6cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 1.png using Guid(6cc69f40668c6164a974c7bfbcc6cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd63e2d8f135578d020760b36543ae3a') in 0.075714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/场景/ui/图层 4 副本.png
+  artifactKey: Guid(b5b6888b0adef9c4e8b74a487d72c473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 4 副本.png using Guid(b5b6888b0adef9c4e8b74a487d72c473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dbbf822a61ec71026f9f53d9027501') in 0.017249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Art/场景/ui/图层 4.png
+  artifactKey: Guid(a3c3f42d3958e314bbcfa72e4f6b5d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 4.png using Guid(a3c3f42d3958e314bbcfa72e4f6b5d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c0979ad71701e83bbd0bad2c7287e1') in 0.013046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Art/场景/ui/图层 12.png
+  artifactKey: Guid(ffbbdf314c7ffb1459bb814084b81d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 12.png using Guid(ffbbdf314c7ffb1459bb814084b81d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e70f863a4cd61f1689e0a89f54ec0') in 0.023646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/场景/ui/图层 11.png
+  artifactKey: Guid(aa46fa8461745864ab8c3796a29eb31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 11.png using Guid(aa46fa8461745864ab8c3796a29eb31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375284e623121514945dbf6ccfbdc5c') in 0.027693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Art/场景/ui/图层 2.png
+  artifactKey: Guid(da7effec96dce8a40948f887988c8e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 2.png using Guid(da7effec96dce8a40948f887988c8e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75696c064fe844b63e3478a8c91652a6') in 0.023016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/Art/场景/ui/图层 3.png
+  artifactKey: Guid(3bca6f8abe5a0954bae943dc627d1500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 3.png using Guid(3bca6f8abe5a0954bae943dc627d1500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe03b1d2b023bc4e510c349b60c8773') in 0.011313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Art/场景/ui/椭圆 1.png
+  artifactKey: Guid(d40bc68286f375a4d8515eb7c2890b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/椭圆 1.png using Guid(d40bc68286f375a4d8515eb7c2890b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6197da1d2307ab12b827ceac6670745e') in 0.468420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Art/场景/ui/椭圆 2.png
+  artifactKey: Guid(b4c254a3e0b0e1343a3c38faa676d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/椭圆 2.png using Guid(b4c254a3e0b0e1343a3c38faa676d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981013ced71a0005252c47b6f565cf7e') in 0.027093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Art/场景/ui/图层 5.png
+  artifactKey: Guid(15401cc75a69d8742abe6b782941d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 5.png using Guid(15401cc75a69d8742abe6b782941d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ac5daad81d30dc048b58c058f42f6') in 0.028844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Art/场景/ui/圆角矩形 2 副本 2.png
+  artifactKey: Guid(758e9d3738987a746955fdb899ec6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/圆角矩形 2 副本 2.png using Guid(758e9d3738987a746955fdb899ec6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7ac1a6ccb3885f4fd7f0937d366d2c') in 0.013884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Art/场景/ui/图层 2 拷贝.png
+  artifactKey: Guid(c7ad5385c7cd70f41aaef55611a03053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 2 拷贝.png using Guid(c7ad5385c7cd70f41aaef55611a03053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bdbb023cfd52c4df2c1d0dba2d8dce') in 0.015075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Art/场景/ui/图层 6 副本.png
+  artifactKey: Guid(1bdebfd2c7ec15745afa581837654b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 6 副本.png using Guid(1bdebfd2c7ec15745afa581837654b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1580b0cbb762b3b2d75ec493a991046e') in 0.013883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Art/场景/ui/图层 3 副本.png
+  artifactKey: Guid(830f7d93d586884428d4346406a3c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/场景/ui/图层 3 副本.png using Guid(830f7d93d586884428d4346406a3c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0427d9eb6ba4ec662b28688ccb2d2d54') in 0.014851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 919.713708 seconds.
+  path: Assets/Art/player
+  artifactKey: Guid(fcc0b8cbc12f9bb46bd2f96cca14fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player using Guid(fcc0b8cbc12f9bb46bd2f96cca14fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c56db14aa37e47cb1c1d062f66a504') in 0.006481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.429677 seconds.
+  path: Assets/Art/player/身体.psb
+  artifactKey: Guid(17c0358945e06cc4eb3d9106506124f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/身体.psb using Guid(17c0358945e06cc4eb3d9106506124f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87716545ee8eb82c230b7513082517ec') in 0.111020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.508755 seconds.
+  path: Assets/Art/player/枪.psb
+  artifactKey: Guid(c5dd31687cc821449a9a0868708ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/枪.psb using Guid(c5dd31687cc821449a9a0868708ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41c4e8bcd2010db05572945c9757c71') in 0.060805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.695568 seconds.
+  path: Assets/Art/player/枪.psb
+  artifactKey: Guid(c5dd31687cc821449a9a0868708ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/枪.psb using Guid(c5dd31687cc821449a9a0868708ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb1b73286a78d42a49551610703ebea') in 0.049007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.991236 seconds.
+  path: Assets/Art/player/身体.png
+  artifactKey: Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/身体.png using Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d5532869d854b2ab4a85d8a631f7bc') in 0.023498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.211253 seconds.
+  path: Assets/Art/player/身体.png
+  artifactKey: Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/身体.png using Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a618c9b759be938a28c3641b0fd98a3') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.399003 seconds.
+  path: Assets/Art/player/身体.png
+  artifactKey: Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player/身体.png using Guid(7251bfd87ab8498469e401f00b5e671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f40a6ac1f95de7eaf65857fadc59ff') in 0.015413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.375375 seconds.
+  path: Assets/Art/怪兽
+  artifactKey: Guid(5fed4b2c351e6e34dbcc077d79d1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/怪兽 using Guid(5fed4b2c351e6e34dbcc077d79d1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c12b5d570696e447e4bf15d54ae2688') in 0.005031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.612104 seconds.
+  path: Assets/Art/怪兽/三眼的未知生物.png
+  artifactKey: Guid(de804a9c56dba59459b1b0369deb0269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/怪兽/三眼的未知生物.png using Guid(de804a9c56dba59459b1b0369deb0269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d6b6c6ce0c82029bb182328f445d4d') in 0.024269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.857108 seconds.
+  path: Assets/Art/怪兽/有护甲的未知生物2.png
+  artifactKey: Guid(83563a215ce4fb747a86e92aaac5c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/怪兽/有护甲的未知生物2.png using Guid(83563a215ce4fb747a86e92aaac5c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c14ec20c2a54d38ea753ca6347fff7f') in 0.021143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642618 seconds.
+  path: Assets/Art/怪兽/有护甲我未知生物1.png
+  artifactKey: Guid(fdf62cdf0167a42499b057cd1140b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/怪兽/有护甲我未知生物1.png using Guid(fdf62cdf0167a42499b057cd1140b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fafa176f2b6510ab70654a1d2013676') in 0.025255 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
